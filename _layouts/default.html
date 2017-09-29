@@ -6,9 +6,10 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/style/main.css">
 </head>
 <body>
+  {% include sidebar.html %}
   <div class="container">
-    {% include sidebar.html %}
-    <div class="main">
+    <div class="container-inner">
+      {% include nav.html %}
       {{ content }}
     </div>
   </div>

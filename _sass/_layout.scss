@@ -1,0 +1,41 @@
+.container {  
+  padding: 20px 20px 20px 420px;
+}
+
+.container-inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 400px;
+  background-color: $primary-color;
+}
+
+.nav-list {
+  display: flex;
+  margin-bottom: 20px;
+
+  li {
+    flex: 1;
+    flex-shrink: 1;
+    text-align: center;
+    list-style: none;
+
+    a {
+      display: inline-block;
+      padding: 10px;
+      font-size: 18px;
+      border-bottom: 2px solid transparent;
+      transition: border 0.8s;
+
+      &:hover {
+        border-color: $primary-color;
+      }
+    }
+  }
+}

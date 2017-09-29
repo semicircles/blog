@@ -1,10 +1,16 @@
-<section>
-  <ul class="article-list">    
+<section>   
     {% for post in site.posts %}
-      <li>
-        <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-        <p>{{ post.date }}</p>
-      </li>
+      <article class="post-body">
+        <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+        <div class="category">
+        {% if post.categories %}
+          {{  }}
+        {% endif %}
+        </div>
+        <span>{{ post.date | date_to_string }}</span>
+        <div class="post-content">
+          {{ post.content }}
+        </div>
+      </article class="post-body">
     {% endfor %}
-  </ul>
 </section>
