@@ -1,1 +1,9 @@
-baseurl: '/blog'
+#Site
+title: Chunxiao's Blog
+subtitle:
+description: To record anything that I wanna write
+author: 
+
+#Url
+baseurl: /blog
+githuburl: https://github.com/semicircles

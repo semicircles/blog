@@ -13,7 +13,37 @@
   top: 0;
   bottom: 0;
   width: 400px;
+  padding: 20px 40px;
   background-color: $primary-color;
+  color: #fff;
+
+  &-inner {
+    position: relative;
+    height: 100%;
+  }
+
+  header {
+    padding-top: 50px;
+    text-align: center;
+  }
+}
+
+.footer {
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  text-align: center;
+
+  .icon-links {
+    a {
+      display: inline-block;
+    }
+
+    svg {
+      height: 30px;
+      width: auto;
+    }
+  }
 }
 
 .nav-list {

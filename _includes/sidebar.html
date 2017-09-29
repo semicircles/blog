@@ -1,2 +1,15 @@
 <div class="sidebar">
+  <div class="sidebar-inner">
+    <header>
+      <h1>{{ site.title }}</h1>
+      <p>{{ site.description }}</p>
+    </header>
+    <footer class="footer">
+      {% include sidebar-icon-links.html %}
+      <div class="footer-info">        
+        {% include copyright.html %}
+        Powered by <a href="https://jekyllrb.com">Jekyll</a>
+      </div>
+    </footer>
+  </div>
 </div>
