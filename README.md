@@ -1,1 +1,1 @@
-#[Blog](https://semicircles.github.io/blog/)
+[Blog](https://semicircles.github.io/blog/)
