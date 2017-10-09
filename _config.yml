@@ -7,3 +7,10 @@ author:
 #Url
 baseurl: /blog
 githuburl: https://github.com/semicircles
+
+#Serve
+port: 3000
+
+#Markdown
+markdown: kramdown
+highlighter: rouge
